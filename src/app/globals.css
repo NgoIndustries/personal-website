@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@font-face {  
+  font-family: Helvetica_Now;  
+  font-style: normal;  
+  font-weight: 200 700;  
+  font-display: swap;  
+  src: url("../fonts/helveticaNow.woff2") 
+  format("woff2");
+}
+
+@font-face {
+  font-family: Ferrite_Core_DX;
+  font-style:normal;
+  src: url("../fonts/FerriteCoreDX-Regular.woff2")
+  format("woff2")
+}
+
+@theme {
+  --font-helvetica_now: "Helvetica_Now";
+}
+
+@theme {
+  --font-ferrite_core_dx: "Ferrite_Core_DX";
+}
